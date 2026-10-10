@@ -16,6 +16,9 @@ sealed class Damage(val amount: Int) {
 }
 
 
+
+
+
 enum class ItemType { POTION, SCROLL, WEAPON, RING }
 
 data class Item(
